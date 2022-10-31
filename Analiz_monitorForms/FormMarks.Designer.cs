@@ -1,0 +1,106 @@
+﻿namespace Analiz_monitorForms
+{
+    partial class FormMarks
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dataGridView_Params = new System.Windows.Forms.DataGridView();
+            this.button_Add = new System.Windows.Forms.Button();
+            this.buttonDel = new System.Windows.Forms.Button();
+            this.buttonUpd = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Params)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridView_Params
+            // 
+            this.dataGridView_Params.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Params.Location = new System.Drawing.Point(11, 11);
+            this.dataGridView_Params.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView_Params.Name = "dataGridView_Params";
+            this.dataGridView_Params.RowHeadersWidth = 62;
+            this.dataGridView_Params.RowTemplate.Height = 28;
+            this.dataGridView_Params.Size = new System.Drawing.Size(454, 277);
+            this.dataGridView_Params.TabIndex = 5;
+            // 
+            // button_Add
+            // 
+            this.button_Add.Location = new System.Drawing.Point(488, 11);
+            this.button_Add.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Add.Name = "button_Add";
+            this.button_Add.Size = new System.Drawing.Size(73, 21);
+            this.button_Add.TabIndex = 6;
+            this.button_Add.Text = "Назначить";
+            this.button_Add.UseVisualStyleBackColor = true;
+            this.button_Add.Click += new System.EventHandler(this.button_Add_Click);
+            // 
+            // buttonDel
+            // 
+            this.buttonDel.Location = new System.Drawing.Point(488, 95);
+            this.buttonDel.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonDel.Name = "buttonDel";
+            this.buttonDel.Size = new System.Drawing.Size(73, 21);
+            this.buttonDel.TabIndex = 7;
+            this.buttonDel.Text = "Удалить";
+            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
+            // 
+            // buttonUpd
+            // 
+            this.buttonUpd.Location = new System.Drawing.Point(488, 53);
+            this.buttonUpd.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonUpd.Name = "buttonUpd";
+            this.buttonUpd.Size = new System.Drawing.Size(73, 21);
+            this.buttonUpd.TabIndex = 8;
+            this.buttonUpd.Text = "Изменить";
+            this.buttonUpd.UseVisualStyleBackColor = true;
+            this.buttonUpd.Click += new System.EventHandler(this.buttonUpd_Click);
+            // 
+            // FormMarks
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(572, 322);
+            this.Controls.Add(this.buttonUpd);
+            this.Controls.Add(this.buttonDel);
+            this.Controls.Add(this.button_Add);
+            this.Controls.Add(this.dataGridView_Params);
+            this.Name = "FormMarks";
+            this.Text = "Оценки нечетких параметров";
+            this.Load += new System.EventHandler(this.FormMarks_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Params)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dataGridView_Params;
+        private System.Windows.Forms.Button button_Add;
+        private System.Windows.Forms.Button buttonDel;
+        private System.Windows.Forms.Button buttonUpd;
+    }
+}
