@@ -21,7 +21,7 @@ namespace Analiz_monitorForms
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(container.Resolve<FormBase>());
+            Application.Run(container.Resolve<FormMain>());
         }
 
         public static IUnityContainer BuildUnityContainer()

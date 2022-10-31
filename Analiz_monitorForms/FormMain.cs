@@ -11,12 +11,12 @@ using Unity;
 
 namespace Analiz_monitorForms
 {
-    public partial class FormBase : Form
+    public partial class FormMain : Form
     {
         [Dependency]
         public new IUnityContainer Container { get; set; }
 
-        public FormBase()
+        public FormMain()
         {
             InitializeComponent();
         }

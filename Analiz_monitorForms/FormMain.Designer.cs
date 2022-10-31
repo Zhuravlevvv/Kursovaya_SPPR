@@ -1,6 +1,6 @@
 ﻿namespace Analiz_monitorForms
 {
-    partial class FormBase
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
