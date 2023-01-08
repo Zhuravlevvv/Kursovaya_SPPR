@@ -45,16 +45,22 @@ namespace Analiz_monitorForms
             form.ShowDialog();
         }
 
-        private void анализToolStripMenuItem_Click(object sender, EventArgs e)
+        private void границыПараметровToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = Container.Resolve<FormMarks>();
+            form.Show();
+        }
+
+        private void buttonAnaliz_Click(object sender, EventArgs e)
         {
             var form = Container.Resolve<FormAnalize>();
             form.Show();
         }
 
-        private void границыПараметровToolStripMenuItem_Click(object sender, EventArgs e)
+        private void buttonExit_Click(object sender, EventArgs e)
         {
-            var form = Container.Resolve<FormMarks>();
-            form.Show();
+            Application.Exit();
+            Close();
         }
     }
 }

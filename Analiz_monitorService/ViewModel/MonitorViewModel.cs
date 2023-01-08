@@ -45,6 +45,7 @@ namespace Analiz_monitorService.ViewModel
         [DisplayName("Оценка")]
         public int Assessment { get; set; }
 
+        [DisplayName("Номер бренда")]
         public int BrandId { get; set; }
 
         [DisplayName("Название бренда")]

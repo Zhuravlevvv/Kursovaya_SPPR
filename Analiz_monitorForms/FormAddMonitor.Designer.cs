@@ -34,10 +34,7 @@
             this.labelMatrixType = new System.Windows.Forms.Label();
             this.labelResponseTime = new System.Windows.Forms.Label();
             this.labelFrequency = new System.Windows.Forms.Label();
-            this.labelHDTVSupport = new System.Windows.Forms.Label();
-            this.labelHDCPSupport = new System.Windows.Forms.Label();
             this.labelPowerUsage = new System.Windows.Forms.Label();
-            this.labelCurved = new System.Windows.Forms.Label();
             this.labelPowerSupply = new System.Windows.Forms.Label();
             this.labelAssessment = new System.Windows.Forms.Label();
             this.labelBrand = new System.Windows.Forms.Label();
@@ -64,117 +61,110 @@
             // labelName
             // 
             this.labelName.AutoSize = true;
+            this.labelName.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelName.ForeColor = System.Drawing.SystemColors.Control;
             this.labelName.Location = new System.Drawing.Point(12, 9);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(60, 13);
+            this.labelName.Size = new System.Drawing.Size(65, 15);
             this.labelName.TabIndex = 3;
             this.labelName.Text = "Название:";
             // 
             // labelDiagonal
             // 
             this.labelDiagonal.AutoSize = true;
+            this.labelDiagonal.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDiagonal.ForeColor = System.Drawing.SystemColors.Control;
             this.labelDiagonal.Location = new System.Drawing.Point(12, 38);
             this.labelDiagonal.Name = "labelDiagonal";
-            this.labelDiagonal.Size = new System.Drawing.Size(66, 13);
+            this.labelDiagonal.Size = new System.Drawing.Size(70, 15);
             this.labelDiagonal.TabIndex = 4;
             this.labelDiagonal.Text = "Диагональ:";
             // 
             // labelResolution
             // 
             this.labelResolution.AutoSize = true;
+            this.labelResolution.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelResolution.ForeColor = System.Drawing.SystemColors.Control;
             this.labelResolution.Location = new System.Drawing.Point(12, 69);
             this.labelResolution.Name = "labelResolution";
-            this.labelResolution.Size = new System.Drawing.Size(73, 13);
+            this.labelResolution.Size = new System.Drawing.Size(83, 15);
             this.labelResolution.TabIndex = 5;
             this.labelResolution.Text = "Разрешение:";
             // 
             // labelMatrixType
             // 
             this.labelMatrixType.AutoSize = true;
+            this.labelMatrixType.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMatrixType.ForeColor = System.Drawing.SystemColors.Control;
             this.labelMatrixType.Location = new System.Drawing.Point(12, 97);
             this.labelMatrixType.Name = "labelMatrixType";
-            this.labelMatrixType.Size = new System.Drawing.Size(77, 13);
+            this.labelMatrixType.Size = new System.Drawing.Size(87, 15);
             this.labelMatrixType.TabIndex = 6;
             this.labelMatrixType.Text = "Тип матрицы:";
             // 
             // labelResponseTime
             // 
             this.labelResponseTime.AutoSize = true;
+            this.labelResponseTime.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelResponseTime.ForeColor = System.Drawing.SystemColors.Control;
             this.labelResponseTime.Location = new System.Drawing.Point(12, 123);
             this.labelResponseTime.Name = "labelResponseTime";
-            this.labelResponseTime.Size = new System.Drawing.Size(87, 13);
+            this.labelResponseTime.Size = new System.Drawing.Size(98, 15);
             this.labelResponseTime.TabIndex = 7;
             this.labelResponseTime.Text = "Время отклика:";
             // 
             // labelFrequency
             // 
             this.labelFrequency.AutoSize = true;
+            this.labelFrequency.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelFrequency.ForeColor = System.Drawing.SystemColors.Control;
             this.labelFrequency.Location = new System.Drawing.Point(12, 153);
             this.labelFrequency.Name = "labelFrequency";
-            this.labelFrequency.Size = new System.Drawing.Size(52, 13);
+            this.labelFrequency.Size = new System.Drawing.Size(52, 15);
             this.labelFrequency.TabIndex = 8;
             this.labelFrequency.Text = "Частота:";
-            // 
-            // labelHDTVSupport
-            // 
-            this.labelHDTVSupport.AutoSize = true;
-            this.labelHDTVSupport.Location = new System.Drawing.Point(12, 181);
-            this.labelHDTVSupport.Name = "labelHDTVSupport";
-            this.labelHDTVSupport.Size = new System.Drawing.Size(89, 13);
-            this.labelHDTVSupport.TabIndex = 9;
-            this.labelHDTVSupport.Text = "Поддержка hdtv";
-            // 
-            // labelHDCPSupport
-            // 
-            this.labelHDCPSupport.AutoSize = true;
-            this.labelHDCPSupport.Location = new System.Drawing.Point(12, 208);
-            this.labelHDCPSupport.Name = "labelHDCPSupport";
-            this.labelHDCPSupport.Size = new System.Drawing.Size(92, 13);
-            this.labelHDCPSupport.TabIndex = 10;
-            this.labelHDCPSupport.Text = "Поддержка hdcp";
             // 
             // labelPowerUsage
             // 
             this.labelPowerUsage.AutoSize = true;
+            this.labelPowerUsage.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPowerUsage.ForeColor = System.Drawing.SystemColors.Control;
             this.labelPowerUsage.Location = new System.Drawing.Point(12, 232);
             this.labelPowerUsage.Name = "labelPowerUsage";
-            this.labelPowerUsage.Size = new System.Drawing.Size(111, 13);
+            this.labelPowerUsage.Size = new System.Drawing.Size(128, 15);
             this.labelPowerUsage.TabIndex = 11;
             this.labelPowerUsage.Text = "Энергопотребление:";
-            // 
-            // labelCurved
-            // 
-            this.labelCurved.AutoSize = true;
-            this.labelCurved.Location = new System.Drawing.Point(12, 257);
-            this.labelCurved.Name = "labelCurved";
-            this.labelCurved.Size = new System.Drawing.Size(74, 13);
-            this.labelCurved.TabIndex = 12;
-            this.labelCurved.Text = "Изогнутость:";
             // 
             // labelPowerSupply
             // 
             this.labelPowerSupply.AutoSize = true;
+            this.labelPowerSupply.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPowerSupply.ForeColor = System.Drawing.SystemColors.Control;
             this.labelPowerSupply.Location = new System.Drawing.Point(12, 286);
             this.labelPowerSupply.Name = "labelPowerSupply";
-            this.labelPowerSupply.Size = new System.Drawing.Size(106, 13);
+            this.labelPowerSupply.Size = new System.Drawing.Size(119, 15);
             this.labelPowerSupply.TabIndex = 13;
             this.labelPowerSupply.Text = "Тип блока питания:";
             // 
             // labelAssessment
             // 
             this.labelAssessment.AutoSize = true;
+            this.labelAssessment.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAssessment.ForeColor = System.Drawing.SystemColors.Control;
             this.labelAssessment.Location = new System.Drawing.Point(12, 318);
             this.labelAssessment.Name = "labelAssessment";
-            this.labelAssessment.Size = new System.Drawing.Size(48, 13);
+            this.labelAssessment.Size = new System.Drawing.Size(53, 15);
             this.labelAssessment.TabIndex = 14;
             this.labelAssessment.Text = "Оценка:";
             // 
             // labelBrand
             // 
             this.labelBrand.AutoSize = true;
+            this.labelBrand.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelBrand.ForeColor = System.Drawing.SystemColors.Control;
             this.labelBrand.Location = new System.Drawing.Point(12, 344);
             this.labelBrand.Name = "labelBrand";
-            this.labelBrand.Size = new System.Drawing.Size(41, 13);
+            this.labelBrand.Size = new System.Drawing.Size(46, 15);
             this.labelBrand.TabIndex = 15;
             this.labelBrand.Text = "Бренд:";
             // 
@@ -269,9 +259,11 @@
             // checkBoxHDTV
             // 
             this.checkBoxHDTV.AutoSize = true;
+            this.checkBoxHDTV.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxHDTV.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBoxHDTV.Location = new System.Drawing.Point(145, 181);
             this.checkBoxHDTV.Name = "checkBoxHDTV";
-            this.checkBoxHDTV.Size = new System.Drawing.Size(117, 17);
+            this.checkBoxHDTV.Size = new System.Drawing.Size(128, 19);
             this.checkBoxHDTV.TabIndex = 23;
             this.checkBoxHDTV.Text = "Поддержка HDTV";
             this.checkBoxHDTV.UseVisualStyleBackColor = true;
@@ -279,9 +271,11 @@
             // checkBoxHDCP
             // 
             this.checkBoxHDCP.AutoSize = true;
+            this.checkBoxHDCP.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxHDCP.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBoxHDCP.Location = new System.Drawing.Point(145, 207);
             this.checkBoxHDCP.Name = "checkBoxHDCP";
-            this.checkBoxHDCP.Size = new System.Drawing.Size(117, 17);
+            this.checkBoxHDCP.Size = new System.Drawing.Size(130, 19);
             this.checkBoxHDCP.TabIndex = 24;
             this.checkBoxHDCP.Text = "Поддержка HDCP";
             this.checkBoxHDCP.UseVisualStyleBackColor = true;
@@ -296,9 +290,11 @@
             // checkBoxCurved
             // 
             this.checkBoxCurved.AutoSize = true;
+            this.checkBoxCurved.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxCurved.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBoxCurved.Location = new System.Drawing.Point(145, 257);
             this.checkBoxCurved.Name = "checkBoxCurved";
-            this.checkBoxCurved.Size = new System.Drawing.Size(90, 17);
+            this.checkBoxCurved.Size = new System.Drawing.Size(95, 19);
             this.checkBoxCurved.TabIndex = 26;
             this.checkBoxCurved.Text = "Изогнутость";
             this.checkBoxCurved.UseVisualStyleBackColor = true;
@@ -335,22 +331,28 @@
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(25, 374);
+            this.buttonSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.buttonSave.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSave.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonSave.Location = new System.Drawing.Point(15, 373);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(75, 23);
+            this.buttonSave.Size = new System.Drawing.Size(125, 23);
             this.buttonSave.TabIndex = 30;
             this.buttonSave.Text = "Сохранить";
-            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.UseVisualStyleBackColor = false;
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // buttonCancel
             // 
+            this.buttonCancel.BackColor = System.Drawing.Color.Crimson;
+            this.buttonCancel.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCancel.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonCancel.Location = new System.Drawing.Point(145, 373);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.Size = new System.Drawing.Size(185, 23);
             this.buttonCancel.TabIndex = 31;
             this.buttonCancel.Text = "Отмена";
-            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.UseVisualStyleBackColor = false;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // comboBoxPowerSupply
@@ -368,7 +370,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 417);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(342, 404);
             this.Controls.Add(this.comboBoxPowerSupply);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonSave);
@@ -387,18 +390,16 @@
             this.Controls.Add(this.labelBrand);
             this.Controls.Add(this.labelAssessment);
             this.Controls.Add(this.labelPowerSupply);
-            this.Controls.Add(this.labelCurved);
             this.Controls.Add(this.labelPowerUsage);
-            this.Controls.Add(this.labelHDCPSupport);
-            this.Controls.Add(this.labelHDTVSupport);
             this.Controls.Add(this.labelFrequency);
             this.Controls.Add(this.labelResponseTime);
             this.Controls.Add(this.labelMatrixType);
             this.Controls.Add(this.labelResolution);
             this.Controls.Add(this.labelDiagonal);
             this.Controls.Add(this.labelName);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "FormAddMonitor";
-            this.Text = "Добавить монитор";
+            this.Text = "Добавление мониторов";
             this.Load += new System.EventHandler(this.FormCreateZakaz_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDiagonal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownResponseTime)).EndInit();
@@ -416,10 +417,7 @@
         private System.Windows.Forms.Label labelMatrixType;
         private System.Windows.Forms.Label labelResponseTime;
         private System.Windows.Forms.Label labelFrequency;
-        private System.Windows.Forms.Label labelHDTVSupport;
-        private System.Windows.Forms.Label labelHDCPSupport;
         private System.Windows.Forms.Label labelPowerUsage;
-        private System.Windows.Forms.Label labelCurved;
         private System.Windows.Forms.Label labelPowerSupply;
         private System.Windows.Forms.Label labelAssessment;
         private System.Windows.Forms.Label labelBrand;

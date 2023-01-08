@@ -81,6 +81,10 @@ namespace Analiz_monitorForms
                     LoadData();
                 }
             }
+            if (dataGridView_Params.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Не вырана колонка!");
+            }
         }
     }
 }

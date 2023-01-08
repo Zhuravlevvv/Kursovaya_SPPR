@@ -13,8 +13,6 @@ namespace Analiz_monitorService.Interface
 
         List<BrandBindingModel> GetList();
 
-   //     List<BrandBindingModel> GetSortList();
-
         BrandBindingModel GetElement(int id);
     }
 }
